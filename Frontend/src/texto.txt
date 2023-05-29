@@ -1,0 +1,5 @@
+Separe o componente de Alerta: O componente de Alerta pode ser extraído para um componente separado. Isso tornará o componente principal mais limpo e o Alerta poderá ser reutilizado em outras partes do aplicativo, se necessário.
+
+Use constantes para strings mágicas: Em várias partes do seu código, você usa strings mágicas, como 'employee', 'success', 'error', etc. É uma boa prática definir essas strings como constantes em um arquivo separado. Isso facilita a manutenção do código e reduz a probabilidade de erros de digitação.
+
+Evite estilos inline: Embora seja conveniente, a utilização de estilos inline pode tornar seu código mais difícil de manter à medida que seu aplicativo cresce. Considere usar classes CSS ou styled-components para organizar seus estilos.
