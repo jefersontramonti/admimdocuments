@@ -81,5 +81,4 @@ public abstract class User {
         return Objects.hash(getId());
     }
 
-    // Getters and Setters
 }
